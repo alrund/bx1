@@ -9,7 +9,6 @@ $APPLICATION->SetTitle("Добавление в лог");
         </li>
     </ul>
 <?
-// ТУТ ДОБАВИТЬ СВОЮ ФУНКЦИЮ ДОБАВЛЕНИЯ В ЛОГ
-
+\App\Debug\CustomLog::it(date('d.m.Y H:i:s'));
 ?>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

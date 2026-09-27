@@ -7,8 +7,7 @@ $APPLICATION->SetTitle("Ошибка для exeption");
     </li>
 </ul>
 <?
-// ошибка для exeption
-
+ 1/0
 ?>
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

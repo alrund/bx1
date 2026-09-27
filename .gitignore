@@ -97,6 +97,7 @@
 /local/var/
 /local/vendor/
 /local/php_interface/dbconn.php
+/local/.settings_extra.php
 /.env*
 /local/.env*
 !/.env.example
@@ -129,3 +130,4 @@
 *.swo
 .DS_Store
 Thumbs.db
+/vendor/
